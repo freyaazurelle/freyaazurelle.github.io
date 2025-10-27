@@ -1,0 +1,19 @@
+/* Catppuccin Latte (Light Mode) */
+:root {
+    --bg-color: #eff1f5;
+    --text-color: #4c4f69;
+    --accent-color: #1e66f5;
+    --card-bg: #e6e9ef;
+    --shadow: rgba(76, 79, 105, 0.1);
+    --subtext: #6c6f85;
+}
+
+/* Catppuccin Mocha (Dark Mode) */
+[data-theme="dark"] {
+    --bg-color: #1e1e2e;
+    --text-color: #cdd6f4;
+    --accent-color: #89b4fa;
+    --card-bg: #313244;
+    --shadow: rgba(0, 0, 0, 0.4);
+    --subtext: #a6adc8;
+}
