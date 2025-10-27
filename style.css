@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: var(--bg-color);
+    background-color: var(--card-bg);
     color: var(--text-color);
     font-family: "Roboto Slab", serif;
     padding: 20px;
@@ -22,10 +22,12 @@ body {
 .container {
     text-align: center;
     max-width: 800px;
-    background-color: var(--card-bg);
+    background: var(--card-bg);
     padding: 40px;
-    border-radius: 10px;
-    filter: drop-shadow(0mm 2mm 0.9rem rgba(0, 0, 0, 0.38));
+    border-radius: 20px;
+    box-shadow:
+        10px 10px 20px rgba(0, 0, 0, 0.25),
+        -10px -10px 20px var(--highlight);
 }
 
 .header {

@@ -6,6 +6,7 @@
     --card-bg: #e6e9ef;
     --shadow: rgba(76, 79, 105, 0.1);
     --subtext: #6c6f85;
+    --highlight: #fcfcfc;
 }
 
 /* Catppuccin Mocha (Dark Mode) */
@@ -16,4 +17,5 @@
     --card-bg: #313244;
     --shadow: rgba(0, 0, 0, 0.4);
     --subtext: #a6adc8;
+    --highlight: #393a4f;
 }
