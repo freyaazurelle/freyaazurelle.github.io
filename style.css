@@ -26,11 +26,7 @@ body {
     padding: 40px;
     border-radius: 20px;
     box-shadow:
-<<<<<<< HEAD
         10px 10px 20px var(--shadow),
-=======
-        10px 10px 20px rgba(0, 0, 0, 0.25),
->>>>>>> c34c5bbbb61e64468c94d560bb2418df2c328f1a
         -10px -10px 20px var(--highlight);
 }
 
