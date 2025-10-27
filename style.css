@@ -26,7 +26,7 @@ body {
     padding: 40px;
     border-radius: 20px;
     box-shadow:
-        10px 10px 20px rgba(0, 0, 0, 0.25),
+        10px 10px 20px var(--shadow),
         -10px -10px 20px var(--highlight);
 }
 
@@ -43,7 +43,7 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    filter: drop-shadow(0mm 2mm 0.9rem rgba(0, 0, 0, 0.38));
+    filter: drop-shadow(0mm 2mm 0.9rem var(--shadow));
     object-fit: cover;
     transition: transform 0.2s ease;
 }
@@ -75,7 +75,7 @@ p {
     cursor: pointer;
     font-family: "Roboto Slab", serif;
     font-size: 1rem;
-    filter: drop-shadow(0mm 2mm 0.9rem rgba(0, 0, 0, 0.38));
+    box-shadow: 10px 10px 20px var(--shadow);
     transition: transform 0.2s ease;
 }
 

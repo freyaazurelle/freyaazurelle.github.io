@@ -4,7 +4,7 @@
     --text-color: #4c4f69;
     --accent-color: #1e66f5;
     --card-bg: #e6e9ef;
-    --shadow: rgba(76, 79, 105, 0.1);
+    --shadow: #d7dce8;
     --subtext: #6c6f85;
     --highlight: #fcfcfc;
 }
@@ -15,7 +15,7 @@
     --text-color: #cdd6f4;
     --accent-color: #89b4fa;
     --card-bg: #313244;
-    --shadow: rgba(0, 0, 0, 0.4);
+    --shadow: #2a293a;
     --subtext: #a6adc8;
     --highlight: #393a4f;
 }
