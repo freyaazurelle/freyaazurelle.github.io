@@ -43,7 +43,7 @@ body {
 .profile-pic {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
+    border-radius: 20px;
     filter: drop-shadow(0mm 2mm 0.9rem var(--shadow));
     object-fit: cover;
     transition: transform 0.2s ease;
