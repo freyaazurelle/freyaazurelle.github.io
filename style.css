@@ -74,7 +74,7 @@ p {
     padding: 12px 20px;
     border-radius: 10px;
     cursor: pointer;
-    font-family: "Roboto Slab", serif;
+    font-family: "Nunito", sans-serif;
     font-size: 1rem;
     box-shadow: 10px 10px 20px var(--shadow);
     transition: transform 0.2s ease;
